@@ -1,0 +1,65 @@
+baseurl         = "https://KyNguyenDai.github.io/"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+
+[params]
+  title       = "Example Website"
+  subtitle    = "My Awesome Site"
+
+  cover       = "uploads/IMG_2544.jpg"
+  description = "Here is a description of your site."
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "faketryghost"
+  fbName = "dinamonle"
+  githubName = "KyNguyenDai"
+
+  # logo = "hugo-logo.png"
+  orgName = "EM"
+  orgWebsite = "https://www.telematika.org"
+  orgDescription = "Here is a description placeholder for your org"
+
+  author = "Ky Nguyen Dai"
+  authorAvatar = "uploads/my-profile.png"
+  authorLocation = "Tokyo, JP"
+  authorWebsite = "https://eueung.github.io"
+  authorDescription = "Software Engineer, Photographer"
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "My Life"
+  url = "/tags/life/"
+  weight = 100
+
+[[menu.main]]
+  name = "Books"
+  url = "/categories/books/"
+  weight = 99
+
+[[menu.main]]
+  name = "Technology"
+  url = "/categories/technology/"
+  weight = 99
+
+[[menu.main]]
+  name = "Google"
+  url = "https://google.com/"
+  weight = 95
