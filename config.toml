@@ -52,8 +52,9 @@ paginate        = 6
   weight = 200
 
 [[menu.main]]
-  name = "My Life"
+  name = "Life"
   url = "/tags/life/"
+  pre = "<i class='fa fa-heart'></i>"
   weight = 100
 
 [[menu.main]]
@@ -63,11 +64,11 @@ paginate        = 6
   # parent = "My Life"
 
 [[menu.main]]
-  name = "Technology"
+  name = "Tech"
   url = "/categories/technology/"
   weight = 99
 
 [[menu.main]]
   name = "Google"
   url = "https://google.com/"
-  weight = 95
+  weight = -100
