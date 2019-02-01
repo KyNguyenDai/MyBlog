@@ -5,9 +5,16 @@ disqusShortname = ""
 paginate        = 6
 #SectionPagesMenu = "main"
 
+#Config blackfiday
+# [blackfriday]
+#   angledQuotes = true
+#   extensions = ["hardLineBreak"]
+#   fractions = false
+#   plainIDAnchors = true
+
 [params]
   title       = "Example Website"
-  subtitle    = "My Awesome Site"
+  subtitle    = "Engineer • Think • Design • Prography • Bussiness"
 
   cover       = "uploads/IMG_2544.jpg"
   description = "Here is a description of your site."
@@ -53,6 +60,7 @@ paginate        = 6
   name = "Books"
   url = "/categories/books/"
   weight = 99
+  # parent = "My Life"
 
 [[menu.main]]
   name = "Technology"
