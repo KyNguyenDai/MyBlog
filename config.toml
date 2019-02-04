@@ -13,7 +13,7 @@ paginate        = 6
 #   plainIDAnchors = true
 
 [params]
-  title       = "Example Website"
+  title       = "Happy new year!"
   subtitle    = "Engineer • Think • Design • Prography • Bussiness"
 
   cover       = "uploads/IMG_2544.jpg"
