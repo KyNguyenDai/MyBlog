@@ -1,7 +1,7 @@
 ---
 title: "The Lunar New Year on Japan"
 date: 2019-02-05T22:53:36+09:00
-draft: true
+draft: false
 image: "uploads/pogodar.jpg"
 tags: ["life"]
 ---
