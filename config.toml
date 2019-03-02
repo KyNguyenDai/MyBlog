@@ -13,7 +13,7 @@ paginate        = 6
 #   plainIDAnchors = true
 
 [params]
-  title       = "Happy new year!"
+  title       = ""
   subtitle    = "Engineer • Think • Design • Prography • Bussiness"
 
   cover       = "uploads/IMG_2544.jpg"
@@ -65,10 +65,10 @@ paginate        = 6
 
 [[menu.main]]
   name = "Tech"
-  url = "/categories/technology/"
+  url = "/categories/tech/"
   weight = 99
 
 [[menu.main]]
   name = "About"
-  url = "/about"
+  url = "/about/"
   weight = -100
